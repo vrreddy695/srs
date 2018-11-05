@@ -9,15 +9,11 @@ In this approach, each stratum sample size is directly proportional to the popul
 
 Proportionate Stratified Random Sampling Formula: nh = ( Nh / N ) * n
 nh= Sample size for hth stratum
-
 Nh= Population size for hth stratum
-
 N = Size of entire population
-
 n = Size of entire sample
 
 Example: bleow is the example data frame
-
 id	female	race	ses	schtyp	prog	read	write	math	science	socst
 70	  0	  4	  1	  1	  1	  57	  52	  41	  47	  57
 121	  1	  4	  2	  1	  3	  68	  59	  53	  63	  61
@@ -30,8 +26,7 @@ female  counts    pct
 0        91  0.455
 1       109  0.545
 
-
-if you take the startified random sample, the sampel will also have sampe praportions for female 
+if you take the startified random sample, the sampel will also have sampe praportions for female variable
 sample=startified_random_smaple(df, 'female', 0.25)
 parameters
     dsn: population dataset
