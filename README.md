@@ -11,11 +11,12 @@ Nh= Population size for hth stratum
 N = Size of entire population
 n = Size of entire sample
 
-example usage
-sample=startified_random_smaple(df, 'female', 0.25)
 
 parameters
-    dsn: population dataset
-    stratas: column nsmaes as list format ex: ['strata1','strata2','strata3....']
-    sample_size: how much percentage you want as a sample like 0.05, 0.10, 0.25...
-    """
+dsn: population dataset
+stratas: column nsmaes as list format ex: ['strata1','strata2','strata3....']
+sample_size: how much percentage you want as a sample like 0.05, 0.10, 0.25...
+
+startified_random_smaple(dsn, stratas, sample_size)
+example usage
+sample=startified_random_smaple(df, 'female', 0.25)
