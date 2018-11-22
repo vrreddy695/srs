@@ -12,7 +12,7 @@ N = Size of entire population
 n = Size of entire sample
 
 <li>Parameters</li>
-<i>samp(dsn, stratas, sample_size)</i>
+<i>samp(dsn, stratas, sample_size)</i><br>
 dsn: population dataset<br>
 stratas: column names as list format ex: ['strata1','strata2','strata3....']<br>
 sample_size: how much percentage you want as a sample like 0.05, 0.10, 0.25...</br>
