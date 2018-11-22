@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="srs",
-    version="0.0.1",
+    version="0.0.2",
     author="Venkatramireddy Koppula",
     author_email="venkatrami.reddy@latentview.com",
     description="Startied random sample from the dataframe",
