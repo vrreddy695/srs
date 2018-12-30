@@ -11,7 +11,7 @@ setuptools.setup(
     description="Startied random sample from the dataframe",
     long_description=long_description,
     long_description_content_type="text/x-rst",
-    url="https://github.com/vrreddy695/startifiedRS",
+    url="https://github.com/vrreddy695/srs",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python ",
